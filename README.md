@@ -2,7 +2,7 @@ Please extract the CLI MAS folder to any directory,
 put some .txt agents in the same directory as mas.py,
 and run mas.py, using python 3.9 or higher, after installing these requirements:
 
-py-ollama
+ollama
 PyYAML
 colorama
 pyttsx3
@@ -53,7 +53,7 @@ Before you begin, ensure you have the following installed:
     ```sh
     pip install -r requirements.txt
     ```
-    *(Note: A `requirements.txt` file should be created containing the necessary packages like `py-ollama`, `PyYAML`, `colorama`, `pyttsx3`, `sentence-transformers`, `faiss-cpu` etc.)*
+    *(Note: A `requirements.txt` file should be created containing the necessary packages like `ollama`, `PyYAML`, `colorama`, `pyttsx3`, `sentence-transformers`, `faiss-cpu` etc.)*
 
 ## Usage
 
