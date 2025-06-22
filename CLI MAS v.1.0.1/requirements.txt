@@ -1,4 +1,4 @@
-py-ollama
+ollama
 PyYAML
 colorama
 pyttsx3
