@@ -1,0 +1,60 @@
+# MAS Configuration File
+# Edit this file to customize your agent simulation settings
+
+# Model Settings
+models:
+  default: "dolphin-mistral:latest"
+  fallback: "tinyllama:1.1b-chat-v1-q4_0"
+  blacklist:
+    - "gemma"
+    - "gemma:2b"
+    - "gemma:7b"
+    - "gemma:2b-instruct"
+    - "llama2"
+    - "llama-2"
+    - "openhermes"
+    - "zephyr"
+
+# Agent Settings
+agents:
+  default_temperature: 1.0
+  max_history_window: 6
+  auto_pull_models: true
+
+# RAG (Retrieval-Augmented Generation) Settings
+rag:
+  enabled: true
+  examples_k: 3
+  embed_model: "all-mpnet-base-v2"
+
+# Conversation Settings
+conversation:
+  default_turns: 6
+  turn_delay: 0.5
+  gc_interval: 4  # Garbage collection every N turns
+
+# UI Settings
+ui:
+  enable_tts: true
+  typewriter_effect: false
+  loading_animation: true
+
+# History & Persistence
+persistence:
+  save_history: false
+  save_colors: true
+  save_voices: true
+  history_dir: "history"
+  session_logging: true  # Enable session logging to timestamped text files
+
+# Tools Settings
+tools:
+  enable_calc: true
+  enable_search: true
+  enable_file_ops: true
+  notes_dir: "notes"
+
+# Performance Settings
+performance:
+  enable_gc: true
+  max_memory_usage: "auto"  # or specific MB value 

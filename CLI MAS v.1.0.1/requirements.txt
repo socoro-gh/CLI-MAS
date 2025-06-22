@@ -1,0 +1,6 @@
+py-ollama
+PyYAML
+colorama
+pyttsx3
+sentence-transformers
+faiss-cpu 
