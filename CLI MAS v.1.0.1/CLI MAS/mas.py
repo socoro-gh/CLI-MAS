@@ -1,11 +1,8 @@
 #!/usr/bin/env python3
 """
-ChadMAS: A Multi-Agent Conversation Simulator
-
-This script orchestrates a conversation between multiple AI agents powered by local
-language models through Ollama. Agents are defined by simple text files that specify
-their persona, and their behavior can be augmented with Retrieval-Augmented Generation
-(RAG) using example-based responses.
+CLI Multi-Agent System (CLI-MAS) is a command-line-based multi-agent AI conversation simulator.
+It leverages local language models via Ollama to create interactions between multiple customizable AI personas.
+The system is designed to be highly extensible / configurable.
 
 Key functionalities include:
 - Dynamic loading of agent personas from .txt files.
