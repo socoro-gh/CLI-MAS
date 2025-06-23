@@ -2,7 +2,7 @@ Please extract the CLI MAS folder to any directory,
 put some .txt agents in the same directory as mas.py,
 and run mas.py, using python 3.9 or higher, after installing these requirements:
 
-py-ollama
+ollama
 PyYAML
 colorama
 pyttsx3
